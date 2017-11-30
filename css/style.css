@@ -1,0 +1,49 @@
+
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../images/brushed-alum.png");
+    background-repeat: repeat; 
+    background-color: #004657;
+}
+
+header, footer {
+    background-image: url("../images/cubes.png");
+    background-repeat: repeat;
+    background-color: #004657;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+main {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;    
+}
+
+.sec1 {
+    background-color: #990026;
+    flex-grow: 2;
+}
+
+.sec2 {
+    background-color: #009914;
+    flex-grow: 1;
+}
+
+.sec3 {
+    background-color: #995c00;
+    flex-grow: 1;
+}
