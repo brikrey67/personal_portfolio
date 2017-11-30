@@ -66,4 +66,9 @@ clearfix:after {
 	clear: both;
 	height: 0;
 	font-size: 0;
-	}
+}
+
+@media screen and (max-width: 600px){
+    main {
+      flex-direction: column;
+    }
