@@ -8,6 +8,7 @@ body {
     background-image: url("../images/brushed-alum.png");
     background-repeat: repeat; 
     background-color: #004657;
+    font-family: 'Oxygen', sans-serif;
 }
 
 header, footer {
@@ -40,12 +41,12 @@ main {
 }
 
 .sec2 {
-    background-color: #009914;
+    background-color: #d6ced02c;
     flex-grow: 1;
 }
 
 .sec3 {
-    background-color: #995c00;
+    background-color: #d6ced02c;
     flex-grow: 1;
 }
 
