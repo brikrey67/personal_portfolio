@@ -11,6 +11,7 @@ body {
 }
 
 header, footer {
+    min-height: 10vh;
     background-image: url("../images/cubes.png");
     background-repeat: repeat;
     background-color: #004657;
@@ -34,7 +35,7 @@ main {
 }
 
 .sec1 {
-    background-color: #990026;
+    background-color: #d6ced02c;
     flex-grow: 2;
 }
 
@@ -47,3 +48,17 @@ main {
     background-color: #995c00;
     flex-grow: 1;
 }
+
+.footer_msg {
+    padding: 20px;
+    float: right;
+}
+
+clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+	}
